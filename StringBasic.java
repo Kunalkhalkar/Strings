@@ -14,6 +14,7 @@ public class StringBasic{
 		if(s.charAt(i) == ' '){
 			continue;
 		}
+		
 		++count;
 	}
 	System.out.println(count);
