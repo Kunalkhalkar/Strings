@@ -13,6 +13,7 @@ public class Reverse{
 		for(int i= s.length()-1; i>=0; i--){
 			s1.concat(); 
 		}
+		
 		System.out.println(s1);
 	}
 }
