@@ -11,6 +11,8 @@ public class StringTwo{
 		for(int i = 0; i<s.length(); i++){
 			count++;
 		}
+		
+		
 		System.out.println("The length of string '"+s +"' is : "+ count);
 	}
 	
