@@ -9,5 +9,12 @@ public class PaliString.java{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a string");
 		String str = sc.next();
+		
 	}
+	
+	public static boolean isPalindrome(String str){
+		
+	}
+	
 }
+
