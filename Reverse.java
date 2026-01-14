@@ -9,11 +9,13 @@ public class Reverse{
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter a string");
 		String s = sc.nextLine();
-		String s1 ="";	
-		for(int i= s.length()-1; i>=0; i--){
-			s1.concat(); 
+		char ch[] = s.toCharArray();	
+		for(int i= 0, j=ch.length-1; i <ch.length/2; i++, j--){
+			 char temp = ch[i];
+			 ch[i] = ch[j];
+			 ch[j]= temp;
 		}
-		
-		System.out.println(s1);
+		String abs = new String(ch);
+		System.out.println(abs);
 	}
 }
