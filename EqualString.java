@@ -3,6 +3,7 @@
  Output : Strings are equal
  
  //in this code strings are case Sensitive
+ 
 */
 import java.util.*;
 public class EqualString{
