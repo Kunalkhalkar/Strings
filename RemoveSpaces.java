@@ -9,5 +9,12 @@ public class RemoveSpaces{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str = sc.nextLine();
+			
+		StringBuilder sb = new StringBuilder();
+		String st[] = str.split(" ");
+		for(String s : st){
+			sb.append(s);
+		}
+		System.out.println("String without space '"+sb+"'");
 	}
 }
