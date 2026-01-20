@@ -13,12 +13,13 @@ public class CountOccurance{
 		System.out.println("Enter the character to find occurance count");
 		char c = sc.next().charAt(0);
 		int count = findCount(str, c);
-		if(count != 0){
+		if(count != 0)
 			System.out.println("occurance of '"+ c + "' is '"+count+"'");
-		}else{
+		else
 			System.out.println("Character not found in String '"+str+"'");
-		}
+		
 	}
+	
 	public static int findCount(String str, char c){
 		int count = 0; 
 		for(int i=0; i<str.length(); i++){
