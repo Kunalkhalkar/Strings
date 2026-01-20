@@ -9,5 +9,7 @@ public class SubString{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str = sc.nextLine();
+		System.out.println("Enter a Subpart of String");
+		String s = sc.next();
 	}
 }
