@@ -10,6 +10,7 @@ public class SplitString{
 		String str = sc.nextLine();
 		
 		StringBuilder sb = new StringBuilder();
+		
 		for(int i= 0; i<)
 	}
 }
