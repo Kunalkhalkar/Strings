@@ -12,6 +12,7 @@ public class StringCount{
 		HashMap<Character, Integer> map = new HashMap<>();
 		
 		for (char c : str.toCharArray()) {
+			if(c != ' ')
 		map.put(c, map.getOrDefault(c, 0) + 1);
 	}
 
