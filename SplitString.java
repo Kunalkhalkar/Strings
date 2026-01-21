@@ -7,5 +7,9 @@ public class SplitString{
 	public static void main(String ...x){
 		Scanner sc = new ScannerI(System.in);
 		System.out.println("Enter the String");
+		String str = sc.nextLine();
+		
+		StringBuilder sb = new StringBuilder();
+		for(int i= 0; i<)
 	}
 }
