@@ -11,6 +11,8 @@ public class SplitString{
 		
 		StringBuilder sb = new StringBuilder();
 		
-		for(int i= 0; i<)
+		for(int i= 0; i< sb.length(); i++){
+			
+		}
 	}
 }
