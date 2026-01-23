@@ -14,7 +14,7 @@ public class SubString{
 		
 		for(int i=0; i< str.length(); i++){
 			if( ){
-				System.out.pritnln("");
+				System.out.pritnln("	");
 			}
 		}
 	}
