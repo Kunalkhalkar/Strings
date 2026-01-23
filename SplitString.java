@@ -10,8 +10,8 @@ public class SplitString{
 		String str = sc.nextLine();
 		
 		StringBuilder sb = new StringBuilder();
-		
-		for(int i= 0; i< sb.length(); i++){
+		int count = 0;
+		for(int i= 0; i< str.length(); i++){
 			
 		}
 	}
