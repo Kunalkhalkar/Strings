@@ -14,9 +14,7 @@ public class StringCount{
 		for (char c : str.toCharArray()) {
 			if(c != ' ')
 			{
-				
 				map.put(c, map.getOrDefault(c, 0) + 1);
-			
 			}
 	}
 
