@@ -13,8 +13,8 @@ public class SubString{
 		String s = sc.next();
 		
 		for(int i=0; i< str.length(); i++){
-			if( ){
-				System.out.pritnln("	");
+			if(){
+				System.out.pritnln(" ");
 			}
 		}
 	}
