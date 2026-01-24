@@ -5,14 +5,25 @@
 import java.util.*;
 public class SplitString{
 	public static void main(String ...x){
-		Scanner sc = new ScannerI(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str = sc.nextLine();
-		
-		StringBuilder sb = new StringBuilder();
+		StringBuilder sn = new StringBuilder();
 		int count = 0;
-		for(int i= 0; i< str.length(); i++){
+		for(int i = 0; i < str.length(); i++){
+		StringBuilder sb = new StringBuilder("");
+		count = 0;
+			if(str.charAt(i) != ' '){
+				sb.append(str.charAt(i));				
+			}
 			
+			else{
+				if(sb.length() > count){
+					count = sb.length();
+					sn = sb;
+				}
+			}
 		}
+		System.out.println("String is : "+sn+" Length is : "+count);
 	}
 }
