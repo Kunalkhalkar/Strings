@@ -22,11 +22,10 @@ public class SplitString {
                 if (currentWord.length() > longestWord.length()) {
                     longestWord = currentWord.toString();
                 }
-                currentWord.setLength(0); // reset for next word
+                currentWord.setLength(0); 
             }
         }
 
-        // check last word
         if (currentWord.length() > longestWord.length()) {
             longestWord = currentWord.toString();
         }
