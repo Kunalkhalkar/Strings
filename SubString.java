@@ -11,11 +11,5 @@ public class SubString{
 		String str = sc.nextLine();
 		System.out.println("Enter a Subpart of String");
 		String s = sc.next();
-		
-		for(int i=0; i< str.length(); i++){
-			if(){
-				System.out.pritnln(" ");
-			}
-		}
 	}
 }
