@@ -16,12 +16,11 @@ public class StringCount{
 			{
 				map.put(c, map.getOrDefault(c, 0) + 1);
 			}
-	}
-
-	
-		
+		}
 		Set<Character> keys = map.keySet();
+		
 		for (Character key : keys) {
+			
 			System.out.println("Key: " + key + ", Value: " + map.get(key)); 
 		}
 		
