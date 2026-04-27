@@ -8,8 +8,10 @@ Output:dctn
 
 
 import java.util.*;
+import java.io.*;
 public class RemoveVowels{
-	public static void main(String...x){
+	
+	public static void main(String...x) throws Exception{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		
