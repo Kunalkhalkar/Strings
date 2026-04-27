@@ -1,6 +1,8 @@
 /*
 Q23. Write a Java program to remove all spaces.
+
 Description:Remove spaces manually.
+
 Input:Enter string: Java is easy
 Output:Javaiseasy
 */
