@@ -11,6 +11,7 @@ public class RemoveSpaces{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str = sc.nextLine();
+		
 		//String builder for better performance
 		StringBuilder sb = new StringBuilder();
 		
