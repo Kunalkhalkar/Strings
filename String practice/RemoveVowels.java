@@ -11,7 +11,8 @@ public class RemoveVowels{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
 		String str = sc.nextLine();
-		StringBuilder sb = new StringBuilder();
+		
+		StringBuilder sb = new StringBuilder(); // StringBuilder()
 		
 		
 		for(int i=0; i<str.length(); i++){
@@ -20,6 +21,7 @@ public class RemoveVowels{
 			if(ch == 'a' || ch =='e' || ch =='i' || ch == 'o' || ch == 'u'){
 				continue;
 			}
+			
 			else{
 				sb.append(ch);
 			}
