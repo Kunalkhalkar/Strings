@@ -1,18 +1,21 @@
 /*
+
 Q22. Write a Java program to remove all vowels.
 Description:Remove vowels and print remaining string.
 Input:Enter string: education
 Output:dctn
 */
 
+
 import java.util.*;
 public class RemoveVowels{
 	public static void main(String...x){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
+		
 		String str = sc.nextLine();
 		
-		StringBuilder sb = new StringBuilder(); // StringBuilder()
+		StringBuilder sb = new StringBuilder(); // StringBuilder()	
 		
 		
 		for(int i=0; i<str.length(); i++){
