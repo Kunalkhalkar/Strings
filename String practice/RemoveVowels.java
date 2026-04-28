@@ -32,6 +32,7 @@ public class RemoveVowels{
 				sb.append(ch);
 			}
 		}
+		
 		System.out.println(sb.toString());
 	}
 }
