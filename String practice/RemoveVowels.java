@@ -3,6 +3,7 @@
 Q22. Write a Java program to remove all vowels.
 Description:Remove vowels and print remaining string.
 Input:Enter string: education
+
 Output:dctn
 */
 
