@@ -11,6 +11,7 @@ public class FrequencyChar{
 	public static void main(String...x){
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String");
+		
 		String str = sc.nextLine();
 		
 		System.out.println("Enter the character to check occurance");
