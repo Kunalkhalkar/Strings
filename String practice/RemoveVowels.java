@@ -25,7 +25,9 @@ public class RemoveVowels{
 			char ch = str.charAt(i);
 			
 			if(ch == 'a' || ch =='e' || ch =='i' || ch == 'o' || ch == 'u'){
+				
 				continue;
+				
 			}
 			
 			else{
