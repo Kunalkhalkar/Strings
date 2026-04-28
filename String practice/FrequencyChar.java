@@ -22,6 +22,8 @@ public class FrequencyChar{
 				count++;
 			}
 		}
+		
 		System.out.println(count);
+		
 	}
 }
